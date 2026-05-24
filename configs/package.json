@@ -1,1 +1,9 @@
-{"name":"the-most-diversity","version":"1.0.0","description":"Hello from npm package.json"}
+{
+  "name": "the-most-diversity",
+  "version": "1.0.0",
+  "description": "THE MOST DIVERSITY museum",
+  "scripts": {
+    "museum": "py ../scripts/serve-museum.py",
+    "museum:3000": "py ../scripts/serve-museum.py --port 3000"
+  }
+}

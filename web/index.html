@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THE MOST DIVERSITY — Web Museum</title>
+  <link rel="stylesheet" href="/web/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>THE MOST DIVERSITY</h1>
+    <p class="tagline">Languages · formats · configs · i18n · esoteric codes — in your browser</p>
+    <p class="port-hint">You are running the local museum server. Bookmark this tab.</p>
+    <div id="stats" class="stats" aria-live="polite">Loading catalog…</div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <label class="search-label" for="search">Search files</label>
+      <input id="search" type="search" placeholder="e.g. rust, yaml, brainfuck…" autocomplete="off" />
+      <nav id="categories" class="categories" aria-label="Categories"></nav>
+    </aside>
+
+    <section class="panel">
+      <div id="file-list" class="file-list" hidden>
+        <h2 id="category-title"></h2>
+        <ul id="files"></ul>
+      </div>
+      <article id="viewer" class="viewer" hidden>
+        <header class="viewer-head">
+          <h2 id="viewer-path"></h2>
+          <button type="button" id="close-viewer" class="btn">← Back</button>
+        </header>
+        <pre id="viewer-content"><code></code></pre>
+      </article>
+      <div id="welcome" class="welcome">
+        <p>Pick a <strong>category</strong> on the left, then click any file to read it here.</p>
+        <p class="muted">Not everything is runnable in the browser — this is a browsing museum. For the C++ console app, use Visual Studio (F5).</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Local only · <span id="footer-port"></span></p>
+  </footer>
+  <script src="/web/app.js"></script>
+</body>
+</html>

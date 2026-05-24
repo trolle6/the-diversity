@@ -10,6 +10,7 @@ int main() {
   ╚══════════════════════════════════════════════════════════╝
 )";
     std::cout << banner;
-    std::cout << "Open README.md and browse folders. Run scripts/run-samples.ps1 to taste more.\n";
+    std::cout << "Web museum: run scripts\\serve-museum.ps1  ->  http://127.0.0.1:8765/\n";
+    std::cout << "Or browse README.md / folders. Run scripts\\run-samples.ps1 for CLI samples.\n";
     return 0;
 }

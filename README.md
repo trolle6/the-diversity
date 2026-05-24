@@ -8,10 +8,28 @@ Your **Visual Studio** solution still builds the C++ console app in `the most di
 
 | Action | How |
 |--------|-----|
-| Build C++ | Open `the most diversity.sln` in Visual Studio → F5 |
+| **Web museum (browser)** | `powershell -File scripts/serve-museum.ps1` → open **http://127.0.0.1:8765/** |
+| Build C++ console | Open `the most diversity.sln` in Visual Studio → F5 |
 | Regenerate bulk files | `powershell -File scripts/generate-museum.ps1` |
-| Run samples (if installed) | `powershell -File scripts/run-samples.ps1` |
+| Run CLI samples | `powershell -File scripts/run-samples.ps1` |
 | Stats | Open `DIVERSITY_INDEX.json` |
+
+### Run in the browser (port **8765**)
+
+You need **Python 3** installed (check with `py --version`).
+
+```powershell
+cd "c:\Users\simon\source\repos\the most diversity"
+powershell -File scripts\serve-museum.ps1
+```
+
+Your browser should open automatically. If not, go to: **http://127.0.0.1:8765/**
+
+Different port: `py scripts\serve-museum.py --port 3000`
+
+Stop the server with **Ctrl+C** in the terminal.
+
+> GitHub’s URL does **not** run the app — only your machine does, while the server is running.
 
 ## What’s inside
 
