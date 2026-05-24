@@ -1,0 +1,1 @@
+name: diversity\non: [push]\njobs:\n  hi:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo Hello from GitHub Actions\n

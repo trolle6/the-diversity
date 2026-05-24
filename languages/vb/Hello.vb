@@ -1,0 +1,1 @@
+Module Hello\n    Sub Main()\n        System.Console.WriteLine("Hello from VB.NET")\n    End Sub\nEnd Module

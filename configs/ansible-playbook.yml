@@ -1,0 +1,1 @@
+- hosts: localhost\n  tasks:\n    - debug: msg=Hello from Ansible\n

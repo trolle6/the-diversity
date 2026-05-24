@@ -1,0 +1,1 @@
+#import <Foundation/Foundation.h>\nint main() { NSLog(@"Hello from Objective-C"); return 0; }

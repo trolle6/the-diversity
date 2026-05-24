@@ -1,0 +1,1 @@
+cmake_minimum_required(VERSION 3.20)\nproject(Diversity)\nadd_executable(diversity languages/c/hello.c)

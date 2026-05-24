@@ -1,0 +1,1 @@
+print_string("Hello from ReasonML\n");

@@ -1,0 +1,1 @@
+body::before { content: "Hello from CSS (via pseudo-element)"; }

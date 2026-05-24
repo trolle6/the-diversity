@@ -1,0 +1,10 @@
+{
+  "project": "the-most-diversity",
+  "locales": [
+    "en", "es", "fr", "de", "pt", "it", "nl", "sv", "pl", "tr",
+    "ja", "zh", "ko", "vi", "th", "hi", "bn", "ta", "id", "ms",
+    "ar", "he", "fa", "ur", "ru", "uk", "el", "cs", "hu", "ro",
+    "fi", "no", "da", "sw", "am", "ig", "yo", "zu", "gd", "cy",
+    "eo", "la"
+  ]
+}

@@ -1,0 +1,28 @@
+# Build / IDE
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.user
+*.suo
+*.obj
+*.pdb
+*.ilk
+*.exe
+*.log
+
+# Ecosystem caches
+node_modules/
+__pycache__/
+*.pyc
+target/
+.gradle/
+build/
+dist/
+.venv/
+vendor/
+
+# OS
+Thumbs.db
+.DS_Store

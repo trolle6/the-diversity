@@ -1,0 +1,1 @@
+plugins { java }\n// Hello from Gradle Kotlin DSL

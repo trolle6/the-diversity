@@ -1,0 +1,1 @@
+all:\n\t@echo Hello from Makefile

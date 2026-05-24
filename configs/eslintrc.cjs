@@ -1,0 +1,1 @@
+module.exports = { rules: {} }; // Hello from ESLint

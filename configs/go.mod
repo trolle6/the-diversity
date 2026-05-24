@@ -1,0 +1,1 @@
+module github.com/example/the-most-diversity\n\ngo 1.22\n

@@ -1,0 +1,1 @@
+       01  GREETING PIC X(20) VALUE 'Hello from copybook'.

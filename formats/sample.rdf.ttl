@@ -1,0 +1,1 @@
+@prefix ex: <http://example.org/> .\nex:greeting "Hello from Turtle/RDF" .

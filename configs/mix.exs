@@ -1,0 +1,1 @@
+defmodule Diversity.MixProject do\n  use Mix.Project\nend

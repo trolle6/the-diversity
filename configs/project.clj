@@ -1,0 +1,1 @@
+(defproject diversity "0.1.0")

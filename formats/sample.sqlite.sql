@@ -1,0 +1,1 @@
+CREATE TABLE greetings (id INTEGER PRIMARY KEY, text TEXT);\nINSERT INTO greetings VALUES (1, 'Hello from SQLite schema');

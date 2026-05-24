@@ -1,0 +1,1 @@
+{"type":"record","name":"Greet","fields":[{"name":"text","type":"string"}]}

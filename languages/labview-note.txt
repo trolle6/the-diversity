@@ -1,0 +1,1 @@
+LabVIEW is graphical â€” slot reserved for .vi diversity.
